@@ -14,7 +14,7 @@ class ObjectAssistant extends ObjectBase
     * @param array $tools Las herramientas que el asistente utilizará.
     * @param array $files_id Los IDs de los archivos que el asistente utilizará.
     * @param array $metadatos Los metadatos del asistente.
-    * @return object assitant object
+    * @return object assitant object pi
     */
    public function create_assistant($model, $name, $description, $instructions, $tools, $files_id, $metadatos)
    {
